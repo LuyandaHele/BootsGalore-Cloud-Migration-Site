@@ -8,7 +8,7 @@ Key Achievements & Implementation
 
 1.) VPC Networking: Architected a custom VPC with both public and private subnets, internet gateway, and route tables.
 
-2.) Compute Layer (EC2): Auto Scaling Group across private subnets for elasticity. 
+2.) Compute Layer (EC2): Auto Scaling Group of EC2 instances deployed in private subnets, with traffic routed through a public Application Load Balancer(ALB).  
 
 3.) Database Layer (RDS): Amazon RDS (MySQL) deployed in private subnets with Multi-AZ for high availability.
 
