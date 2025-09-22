@@ -1,12 +1,12 @@
-Project Title : BootsGalore-Cloud-Migration
+Project Title : BootsGalore Three-Tier Architecture Migration (This project highlights how small businesses like BootsGalore can leverage AWS for enterprise-grade reliability) 
 
-The BootsGalore Migration Project is a real-world cloud engineering initiative that demonstrates the migration of a online football store's traditional web application into modern AWS three-tier cloud architecture.
+The BootsGalore Migration Project is a real-world cloud engineering initiative that demonstrates the migration of an online football store's traditional web application into modern AWS three-tier cloud architecture.
 
 While the live WordPress demo site (bootsgalore.shop) was hosted externally for the presentation, the entire production-grade AWS infrastructure was fully provisioned and configured to validate the complete migration path. This showcases my ability to design, implement and optimize cloud solutions that balance real-world trade-offs in availability, cost and complexity in practical business scenairos. 
 
-What This Project Demonstrates:
+Key Achievements & Implementation
 
-1.) VPC Networking: Custom VPC with both public and private subnets, internet gateway, and route tables.
+1.) VPC Networking: Architected a custom VPC with both public and private subnets, internet gateway, and route tables.
 
 2.) Compute Layer (EC2): Auto Scaling Group across private subnets for elasticity. 
 
@@ -24,9 +24,9 @@ What This Project Demonstrates:
 
 Why This Project Matters : 
 
-This project demonstrates a cloud migration scenario, one of the most common enterprise use cases. It showcases not only cloud resource setup but also:
+This project demonstrates a cloud migration scenario, one of the most common enterprise use cases.It showcases not only cloud resource setup but also:
 
-Availability → Multi-AZ RDS and ALB ensure redundancy.Designed a custom VPC with public and private subnets across multiple Availability Zones and configuring route tables for secure,segmented traffic.
+Availability → Multi-AZ RDS and ALB ensure redundancy. Designed a custom VPC with public and private subnets across multiple Availability Zones and configuring route tables for secure,segmented traffic.
 
 Scalability → Auto Scaling group tied to CloudWatch alarms.
 
