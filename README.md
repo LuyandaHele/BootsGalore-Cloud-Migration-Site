@@ -79,6 +79,7 @@ Lessons Learned:
 - Importane of networking fundamentals in VPC design
 - Trade-offs between demo vs production-ready setups
 - Hands-on understanding of AWS Well-Architected Framework principles
+- Understood when to use ALB vs NAT Gateway. ALB in public subnets routed traffic to private EC2s (production best practice). NAT Gateway wasn’t required for this demo since instances didn’t need outbound internet, which also optimized costs.
 
 Future Improvements:
 - Add CI/CD pipeline with CodePipeline + CodeDeploy
